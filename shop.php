@@ -75,131 +75,244 @@
             <h3 class="text-center">Our Product</h3>
             <div class="border"></div>
             <!--div class="row"-->
+
+            <form action="" method="POST" class="">
             
                     <div class="row">
-                        <div class="col-xs-4 product-grid">      
-                      <!--div class="col-md-6 col-md-offset-3"-->
-                      <form action="" method="POST">
-                          <table class="table table-striped" style="width: 100%;">
-                              <tbody>
-                                  <tr>
-                                      <td>
-                                  <div class="image">
-                                  <a href="">
-                                  <img src="img/1.jpg" alt="" class="w-100">
+
+                      <div class="col-md-4 product-grid" > 
+                        <div class="image">
+                            <a href="">
+                                <img src="./img/1.jpg" alt="" class="w-100">
                                 
-                                  <div class="overlay">
+                                <div class="overlay">
                                     <div class="detail"><span class="">VIEW DETAILS</span></div>
-                                  </div>
-                                  </a>
-                                  </div>
-                                  
-                                  <p class="text-center"><b>Name Of The Product<br>
-                                  Price<br>
-                                  Amount Available<br>
-                                  Raiting:<br></b></p>
+                                </div>
+                            </a>
+                        </div>
+                        
+                          <h4 class="text-center">Name Of The Product</h4>
+                          <h5 class="text-center">Price</b></h5>
+                          <h6 class="text-center">Amount Available</b></h6>
+                          <h6 class="text-center">Raiting:</b></h6>
                                   
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
-                        <input type="checkbox" name="object1">Select this
-                        <input type="number" name="quantity1">obj1
-                        <!--a href="" class="btn buy">BUY</a-->
-                    <!--/div--></td>
-                                 
-                                    <td>
-                  <!--div class="col-md-4 product-grid" -->
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="object1">
+                            <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" id="exampleInputEmail1" aria-describedby="totalAmount" type="number" name="quantity1" placeholder="quantity" min="0" max="10">
+                          <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
+                        </div>
+
+                        </div>
+
+
+                        <div class="col-md-4 product-grid" > 
                         <div class="image">
                             <a href="">
-                                <img src="img/1.jpg" alt="" class="w-100">
+                                <img src="./img/1.jpg" alt="" class="w-100">
                                 
                                 <div class="overlay">
                                     <div class="detail"><span class="">VIEW DETAILS</span></div>
                                 </div>
                             </a>
                         </div>
-                        <p class="text-center"><b>Name Of The Product<br>
-                          Price<br>
-                          Amount Available<br>
-                          Raiting:<br></b></p>
+                        
+                          <h4 class="text-center">Name Of The Product</h4>
+                          <h5 class="text-center">Price</b></h5>
+                          <h6 class="text-center">Amount Available</b></h6>
+                          <h6 class="text-center">Raiting:</b></h6>
+                                  
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
-                        <input type="checkbox" name="object2">Select this
-                        <input type="number" name="quantity2">obj2<!--a href="" class="btn buy" >BUY</a-->
-                    <!--/div--></td>
-    
-                    <!--div class="col-md-4 product-grid" -->
-                        <td>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="object2">
+                            <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity2" placeholder="quantity" min="0" max="10">
+                          <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
+                        </div>
+
+                        </div>
+
+
+                        <div class="col-md-4 product-grid" > 
                         <div class="image">
                             <a href="">
-                                <img src="img/1.jpg" alt="here" class="w-100">
+                                <img src="./img/1.jpg" alt="" class="w-100">
                                 
                                 <div class="overlay">
                                     <div class="detail"><span class="">VIEW DETAILS</span></div>
                                 </div>
                             </a>
                         </div>
-                        <p class="text-center"><b>Name Of The Product<br>
-                          Price<br>
-                          Amount Available<br>
-                          Raiting:<br></b></p>
+                        
+                          <h4 class="text-center">Name Of The Product</h4>
+                          <h5 class="text-center">Price</b></h5>
+                          <h6 class="text-center">Amount Available</b></h6>
+                          <h6 class="text-center">Raiting:</b></h6>
+                                  
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
-                        <input type="checkbox" name="object3">Select This
-                        <input type="number" name="quantity3">obj3
-                        <!--a href="" class="btn buy">BUY</a-->
-                    <!--/div--></td></tr>
-    
-    
-                        <tr>
-                    <!--div class="col-md-4 product-grid" -->
-                    <td>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="object3">
+                            <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity3" placeholder="quantity" min="0" max="10">
+                          <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
+                        </div>
+
+                        </div>
+
+
+
+
+                        <div class="col-md-4 product-grid" > 
                         <div class="image">
                             <a href="">
-                                <img src="img/1.jpg" alt="" class="w-100">
+                                <img src="./img/1.jpg" alt="" class="w-100">
                                 
                                 <div class="overlay">
-                                    <div class="detail"><span class="" >VIEW DETAILS</span></div>
+                                    <div class="detail"><span class="">VIEW DETAILS</span></div>
                                 </div>
                             </a>
                         </div>
-                        <p class="text-center"><b>Name Of The Product<br>
-                          Price<br>
-                          Amount Available<br>
-                          Raiting:<br></b></p>
+                        
+                          <h4 class="text-center">Name Of The Product</h4>
+                          <h5 class="text-center">Price</b></h5>
+                          <h6 class="text-center">Amount Available</b></h6>
+                          <h6 class="text-center">Raiting:</b></h6>
+                                  
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
-                        <input type="checkbox" name="object4">
-                        <input type="number" name="quantity4">obj4
-                        <!--a href="" class="btn buy">BUY</a-->
-                    <!--/div-->
-                        </td>
-                  </tr>
-                </tbody>
-              </table><br>
-              Email:<input type="text" name="id" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br>
-              Phone:<input type="text" name="phn" required="true" pattern=".{10, }"><br>
-               Name:<input type="text" name="name1" required="true"><br>
-              <input type="hidden" name="form_submitted" value="1">
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="object4">
+                            <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control"  aria-describedby="totalAmount" type="number" name="quantity4" placeholder="quantity" min="0" max="10">
+                          <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
+                        </div>
+
+                        </div>
+
+
+
+                        <div class="col-md-4 product-grid" > 
+                        <div class="image">
+                            <a href="">
+                                <img src="./img/1.jpg" alt="" class="w-100">
+                                
+                                <div class="overlay">
+                                    <div class="detail"><span class="">VIEW DETAILS</span></div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                          <h4 class="text-center">Name Of The Product</h4>
+                          <h5 class="text-center">Price</b></h5>
+                          <h6 class="text-center">Amount Available</b></h6>
+                          <h6 class="text-center">Raiting:</b></h6>
+                                  
+                        <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
+
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="object5">
+                            <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity5" placeholder="Quantity" min="0" max="10">
+                          <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
+                        </div>
+
+
+
+
+ 
+
+                        
+                        
+
+            </div>
+                    </div>
+
+            <div class="form-group">
+              <h2>Have Any Quary?</h2>
+              <h4>Feel Free To Reach Us</h4>
+
+              <label for="inputEmail">Email</label>
+
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+            </div>
+
+            <div class="form-group">
+              <label for="inputName">Number</label>
+              <input type="number" class="form-control" id="inputName" name="phn" required="true" pattern=".{10, }" placeholder="Your Number">
+            </div>
+
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" name="name" required="true" class="form-control" id="inputName" placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+              <textarea rows="3" class="form-control" name="text" placeholder="Add Your Qustion"></textarea>
+            </div>
+    
+
+            <input type="submit" name="btn" class="btn btn-primary">
+
+
+
+            
+
+                        
+                   
+                   
              
-              <input type="submit" name="btn">
-              <?php
-                if(isset($_POST["form_submitted"]) and isset($_POST['btn'])){
-                  $email= $_POST["id"];
-                  $phn= $_POST["phn"];
-                  $name1=$_POST["name1"];
-                  
-                ?>
-              </form>
+             
+<?php
+if(isset($_POST['btn'])){
+  $email= $_POST["inputEmail"];
+  $phn= $_POST["phn"];
+  $name=$_POST["inputName"];
+  $text=$_POST["text"];
+ 
+
+  
+?>
+
+
+</form>
+
               <?php
                      
                     if(isset($_POST['btn'])){
                         if(!empty($_POST['object1'])){
-                            $object1=$_POST['quantity1'][0];
+                            $object1=$_POST['quantity1'];
                         }
                         if(!empty($_POST['object2'])){
-                            $object2=$_POST['quantity2'][0];
+                            $object2=$_POST['quantity2'];
                         }
                         if(!empty($_POST['object3'])){
-                            $object3=$_POST['quantity3'][0];
+                            $object3=$_POST['quantity3'];
                         }
                         if(!empty($_POST['object4'])){
-                            $object4=$_POST['quantity4'][0];
+                            $object4=$_POST['quantity4'];
+                        }
+                        if(!empty($_POST['object5'])){
+                            $object4=$_POST['quantity5'];
                         }
                     }
                     if(empty($object1)){
@@ -215,28 +328,32 @@
                     {
                         $object4=0;
                     }
+                     if(empty($object5))
+                    {
+                        $object5=0;
+                    }
                     
-                    $to="annukri26@gmail.com";
+                    $to="pollabrock@gmail.com";
                     $subject="Asking for Quotation";
                     
-                    $message="Mail from:".$email."\n"."Name:".$name1."\n"."Phn number=".$phn."\n"."Object1 quantity=".$object1."\n"."Object2 quantity=".$object2."\n"."Object3 quantity=".$object3."\n"."Object4 quantity=".$object4;                    
+                    $message="Mail from:".$email."\n"."Name:".$name."\n"."Phn number=".$phn."\n"."Object1 quantity=".$object1."\n"."Object2 quantity=".$object2."\n"."Object3 quantity=".$object3."\n"."Object4 quantity=".$object4."\n"."Message :".$text;                    
                     
                     if(mail($to,$subject,$message)){
                         ?>
             <script>alert("successful");</script>
                     <?php
-                        //header('location: index.php');
+                      
                     } else{
                         ?>
             <script>alert("unsuccessful");</script>
                         <?php  
                             }
                     }
-                        ?>
+                    
+                        ?>        
+                      
             </div>
-          </div>
-        </div>
-      </div>
+
         <a href="#" class="viewCart"><i class="fa fa-cart-plus"></i></a>
     </section>
 
