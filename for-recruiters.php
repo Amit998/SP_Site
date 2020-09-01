@@ -81,7 +81,7 @@
   <hr>
   <section id="section-b" style="color: #40514e; " class="container">
     <h2 style="color: #40514e;">For Hiring Manpower</h2>
-    <p style="color: #40514e;">Greetings. Welcome to Safethos Technologies where we are known to take over Staffing challenges of Organizations looking ahead to grow in the terms of Market Capitalization & Expertise in respective areas by letting us hire for you. Just post your query on specific trade candidate(s) you are looking for. Or drop a Job Description so that we can do the First level Screening for you.</p>
+    <p style="color: #40514e;">Greetings. Welcome to Safedocs Technologies where we are known to take over Staffing challenges of Organizations looking ahead to grow in the terms of Market Capitalization & Expertise in respective areas by letting us hire for you. Just post your query on specific trade candidate(s) you are looking for. Or drop a Job Description so that we can do the First level Screening for you.</p>
   </section>
   <section id="section-c">
     
