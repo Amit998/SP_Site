@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,16 +80,16 @@
                             </a>
                         </div>
                         
-                          <h4 class="text-center">Name Of The Product</h4>
-                          <h5 class="text-center">Price</h5>
-                          <h6 class="text-center">Amount Available</b></h6>
-                          <h6 class="text-center">Raiting:</h6>
+                          <h4 class="text-center">SAFETY HELMET / HARD HAT</h4>
+                          <h5 class="text-center">₹ 165.00</h5>
+                          <h6 class="text-center">FRP Industrial Helmet <br>IS:2925</h6>
+                          <p class="text-center">Mail us or call us to get the best & satisfactory quotation for required quantities</p>
                                   
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
                         <div class="form-group">
                           <div class="form-check">
                             <input type="checkbox" class="form-check-input" name="object1">
-                            <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
+                            <label class="form-check-label" for="exampleCheck1">Select Item</label>
                           </div>
                         </div>
                         <div class="form-group">
@@ -113,20 +111,21 @@
                               </a>
                           </div>
                           
-                            <h4 class="text-center">Name Of The Product</h4>
-                            <h5 class="text-center">Price</h5>
-                            <h6 class="text-center">Amount Available</b></h6>
-                            <h6 class="text-center">Raiting:</h6>
+                            <h4 class="text-center">SAFETY SHOES / BOOTS</h4>
+                            <h5 class="text-center">₹ 470.00</h5>
+                            
+                            <h6 class="text-center">IS15298:2011</h6>
+                            <p class="text-center">We have shoes ranging from Acme to regular usable ones and the prices vary a much with manufacturer's quality. Kindly mail us or call us to get the best & satisfactory quotation for required quantities.</p>
                                     
                           <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
                           <div class="form-group">
                             <div class="form-check">
-                              <input type="checkbox" class="form-check-input" name="object1">
-                              <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
+                              <input type="checkbox" class="form-check-input" name="object2">
+                              <label class="form-check-label" for="exampleCheck1">Select Item</label>
                             </div>
                           </div>
                           <div class="form-group">
-                            <input class="form-control" id="exampleInputEmail1" aria-describedby="totalAmount" type="number" name="quantity1" placeholder="quantity" min="0" max="10">
+                            <input class="form-control" id="exampleInputEmail1" aria-describedby="totalAmount" type="number" name="quantity2" placeholder="quantity" min="0" max="10">
                             <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
                           </div>
   
@@ -144,20 +143,20 @@
                             </a>
                         </div>
                         
-                          <h4 class="text-center">Name Of The Product</h4>
-                          <h5 class="text-center">Price</b></h5>
-                          <h6 class="text-center">Amount Available</b></h6>
-                          <h6 class="text-center">Raiting:</b></h6>
-                                  
+                          <h4 class="text-center">FLORESCENT JACKET (HIGH VISIBILITY REFLECTING SAFETY CLOTH)</h4>
+                          <h5 class="text-center">₹ 215.00</b></h5>
+                          
+                          <h6 class="text-center">Cotton high visibility traffic vest<br>EN-471</h6>
+                          <p class="text-center">We have fluorescent jackets ranging from Udyogi & other certified Manufacturers thus the prices differs. Kindly mail us or call us to get the best & satisfactory quotation for required quantities.</p>       
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
                         <div class="form-group">
                           <div class="form-check">
-                            <input type="checkbox" class="form-check-input" name="object2">
-                            <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
+                            <input type="checkbox" class="form-check-input" name="object3">
+                            <label class="form-check-label" for="exampleCheck1">Select Item</label>
                           </div>
                         </div>
                         <div class="form-group">
-                          <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity2" placeholder="quantity" min="0" max="10">
+                          <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity3" placeholder="quantity" min="0" max="10">
                           <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
                         </div>
 
@@ -175,20 +174,20 @@
                             </a>
                         </div>
                         
-                          <h4 class="text-center">Name Of The Product</h4>
-                          <h5 class="text-center">Price</b></h5>
-                          <h6 class="text-center">Amount Available</b></h6>
-                          <h6 class="text-center">Raiting:</b></h6>
+                          <h4 class="text-center">FIRE RETARDANT JACKET</h4>
+                          <h5 class="text-center">₹ 550.00</b></h5>
+                          
+                          <p class="text-center">We have fire retardant jackets manufactured by certified agencies and the prices are different with fabric & clothing. We also custom design jackets for companies with specific amount of fabric thickness required and providing cost effective solution. Kindly mail us or call us to get the best & satisfactory quotation for required quantities</p>
                                   
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
                         <div class="form-group">
                           <div class="form-check">
-                            <input type="checkbox" class="form-check-input" name="object3">
-                            <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
+                            <input type="checkbox" class="form-check-input" name="object4">
+                            <label class="form-check-label" for="exampleCheck1">Select Item</label>
                           </div>
                         </div>
                         <div class="form-group">
-                          <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity3" placeholder="quantity" min="0" max="10">
+                          <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity4" placeholder="quantity" min="0" max="10">
                           <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
                         </div>
 
@@ -208,20 +207,20 @@
                             </a>
                         </div>
                         
-                          <h4 class="text-center">Name Of The Product</h4>
-                          <h5 class="text-center">Price</b></h5>
-                          <h6 class="text-center">Amount Available</b></h6>
-                          <h6 class="text-center">Raiting:</b></h6>
+                          <h4 class="text-center">SAFETY GOGGLES / GLASSES</h4>
+                          <h5 class="text-center">₹ 55.00</b></h5>
+                          
+                          <p class="text-center">We have safety glasses manufactured by certified agencies like 3M & others and the prices varies with UV protection, covering & thickness of material. Kindly mail us or call us to get the best & satisfactory quotation for required quantities.</p>
                                   
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
                         <div class="form-group">
                           <div class="form-check">
-                            <input type="checkbox" class="form-check-input" name="object4">
+                            <input type="checkbox" class="form-check-input" name="object5">
                             <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
                           </div>
                         </div>
                         <div class="form-group">
-                          <input class="form-control"  aria-describedby="totalAmount" type="number" name="quantity4" placeholder="quantity" min="0" max="10">
+                          <input class="form-control"  aria-describedby="totalAmount" type="number" name="quantity5" placeholder="quantity" min="0" max="10">
                           <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
                         </div>
 
@@ -240,21 +239,20 @@
                             </a>
                         </div>
                         
-                          <h4 class="text-center">Name Of The Product</h4>
-                          <h5 class="text-center">Price</b></h5>
-                          <h6 class="text-center">Amount Available</b></h6>
-                          <h6 class="text-center">Raiting:</b></h6>
+                          <h4 class="text-center">NOSE MASK</h4>
+                          <h5 class="text-center">₹ 117.00</b></h5>
+                          <p class="text-center">We have many types of nose mask like 3M Safety 8210V, N95, KN95, N99 & others and the price varies. Kindly mail us or call us to get the best & satisfactory quotation for required quantities.</p>
                                   
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
 
                         <div class="form-group">
                           <div class="form-check">
-                            <input type="checkbox" class="form-check-input" name="object5">
-                            <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
+                            <input type="checkbox" class="form-check-input" name="object6">
+                            <label class="form-check-label" for="exampleCheck1">Select Item</label>
                           </div>
                         </div>
                         <div class="form-group">
-                          <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity5" placeholder="Quantity" min="0" max="10">
+                          <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity6" placeholder="Quantity" min="0" max="10">
                           <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
                         </div>
 
@@ -270,12 +268,12 @@
                     </div>
 
             <div class="form-group">
-              <h2>Have Any Quary?</h2>
+              <h2>Have Any Query?</h2>
               <h4>Feel Free To Reach Us</h4>
 
               <label for="inputEmail">Email</label>
 
-              <input type="email" class="form-control" id="inputEmail" placeholder="Email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+              <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
             </div>
 
             <div class="form-group">
@@ -285,11 +283,11 @@
 
             <div class="form-group">
                 <label for="inputName">Name</label>
-                <input type="text" name="name" required="true" class="form-control" id="inputName" placeholder="Your Name">
+                <input type="text" name="inputName" required="true" class="form-control" id="inputName" placeholder="Your Name">
             </div>
 
             <div class="form-group">
-              <textarea rows="3" class="form-control" name="text" placeholder="Add Your Qustion"></textarea>
+              <textarea rows="3" class="form-control" name="text" placeholder="Add Your Question"></textarea>
             </div>
     
 
@@ -306,7 +304,7 @@
              
              
 <?php
-if(isset($_POST['btn']) and isset($_POST["form_submitted"])){
+if(isset($_POST["btn"]) and isset($_POST["form_submitted"])){
   $email= $_POST["inputEmail"];
   $phn= $_POST["phn"];
   $name=$_POST["inputName"];
@@ -334,7 +332,10 @@ if(isset($_POST['btn']) and isset($_POST["form_submitted"])){
                             $object4=$_POST['quantity4'];
                         }
                         if(!empty($_POST['object5'])){
-                            $object4=$_POST['quantity5'];
+                            $object5=$_POST['quantity5'];
+                        }
+                        if(!empty($_POST['object6'])){
+                            $object6=$_POST['quantity6'];
                         }
                     }
                     if(empty($object1)){
@@ -354,12 +355,15 @@ if(isset($_POST['btn']) and isset($_POST["form_submitted"])){
                     {
                         $object5=0;
                     }
+                    if(empty($object6))
+                    {
+                        $object6=0;
+                    }
                     
                     $to="damitlucky998@gmail.com";
                     $subject="Asking for Quotation";
                     
-                    $message="Mail from:".$email."\n"."Name:".$name."\n"."Phn number=".$phn."\n"."Object1 quantity=".$object1."\n"."Object2 quantity=".$object2."\n"."Object3 quantity=".$object3."\n"."Object4 quantity=".$object4."\n  object 5".$object5."\n"."Message :".$text;                    
-                    
+                    $message="Mail from:".$email."\n"."Name:".$name."\n"."Phn number=".$phn."\n"."Object1 quantity=".$object1."\n"."Object2 quantity=".$object2."\n"."Object3 quantity=".$object3."\n"."Object4 quantity=".$object4."\n  Object5=".$object5."\n"." Object6=".$object6."\n Message :".$text;
                     if(mail($to,$subject,$message)){
                         ?>
             <script>console.log("successful");</script>
