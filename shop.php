@@ -363,7 +363,7 @@ if(isset($_POST["btn"]) and isset($_POST["form_submitted"])){
                     $to="damitlucky998@gmail.com";
                     $subject="Asking for Quotation";
                     
-                    $message="Mail from:".$email."\n"."Name:".$name."\n"."Phn number=".$phn."\n"."Object1 quantity=".$object1."\n"."Object2 quantity=".$object2."\n"."Object3 quantity=".$object3."\n"."Object4 quantity=".$object4."\n  Object5=".$object5."\n"." Object6=".$object6."\n Message :".$text;
+                    $message="Mail from:".$email."\n"."Name:".$name."\n"."Phn number=".$phn."\n"."Object1 quantity=".$object1."\n"."Object2 quantity=".$object2."\n"."Object3 quantity=".$object3."\n"."Object4 quantity=".$object4."\n  Object5 quantity=".$object5."\n"."  Object6 quantity=".$object6."\n Message :".$text;
                     if(mail($to,$subject,$message)){
                         ?>
             <script>console.log("successful");</script>
