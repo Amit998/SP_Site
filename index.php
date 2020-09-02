@@ -470,7 +470,7 @@
 
     <div class="footer">
       <div class="inner-footer">
-        <div class="footer-items">
+        <div class="footer-items" style="visibility: hidden;">
           <h2>Our Works</h2>
           <div class="footer-border"></div>
           <ul>
@@ -481,7 +481,7 @@
           </ul>
         </div>
 
-        <div class="footer-items">
+        <div class="footer-items" style="visibility: hidden;">
           <h2>Our Portfolio</h2>
           <div class="footer-border"></div>
           <ul>
