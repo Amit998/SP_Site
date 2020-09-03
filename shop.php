@@ -26,7 +26,7 @@
   <!-- NAVBAR -->
 
   <nav class="navbar navbar-expand-lg fixed-top py-3">
-    <a href="./index3.html" class="navbar-brand">SAFEDOCS TECHNOLOGY</a>
+    <a href="./index.php" class="navbar-brand">SAFEDOCS TECHNOLOGY</a>
     <button
       class="navbar-toggler custom-toggler"
       type="button"
@@ -38,7 +38,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
-          <a href="./index3.html" class="nav-link">Home</a>
+          <a href="./index.php" class="nav-link">Home</a>
         </li>
  
         <li class="nav-item">
