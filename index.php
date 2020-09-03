@@ -498,7 +498,7 @@
             <li>
               <i class="fa fa-map-marker" aria-hidden="true"></i>
            
-                Jamshedpur,West Bengal, India
+                Jamshedpur,Jharkhand, India
  
             </li>
             <li>
