@@ -24,7 +24,7 @@
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg fixed-top py-3">
-    <a href="./index.html" class="navbar-brand">SAFEDOCS TECHNOLOGY</a>
+    <a href="./index.php" class="navbar-brand">SAFEDOCS TECHNOLOGY</a>
     <button
       class="navbar-toggler custom-toggler"
       type="button"
@@ -36,11 +36,11 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
-          <a href="./index.html" class="nav-link">Home</a>
+          <a href="./index.php" class="nav-link">Home</a>
         </li>
  
         <li class="nav-item">
-          <a href="./shop.html" class="nav-link">Products</a>
+          <a href="./shop.php" class="nav-link">Products</a>
         </li>
 
         <li class="nav-item">
@@ -48,14 +48,14 @@
         </li>
       </ul>
 
-      <ul class="navbar-nav mx-auto">
-        <form class="form-inline d-none d-sm-block" action="FullPost.php?id=<?php $searchQueryParameter ?>">
+      <!--ul class="navbar-nav mx-auto">
+        <form class="form-inline d-none d-sm-block" action="FullPost.php?id=<?/*php $searchQueryParameter */?>">
           <div class="form-group">
             <input class="form-control mr-2" name="search" type="text" placeholder="Search Here.." />
             <button class="btn" name="searchBtn" type="submit">Search</button>
           </div>
         </form>
-      </ul>
+      </ul-->
     </div>
   </nav>
   <br>
@@ -93,7 +93,7 @@
         <li>Call Center</li>
         <li>Sales</li>
         <li>Accounting</li>
-        <li>THelp Desk</li>
+        <li>Help Desk</li>
         <li>Manufacturing</li>
 
         <li>Office Support</li>
@@ -135,7 +135,7 @@
 
     <div class="footer">
       <div class="inner-footer">
-        <div class="footer-items">
+        <div class="footer-items" style="visibility: hidden;">
           <h2>Our Works</h2>
           <div class="footer-border"></div>
           <ul>
@@ -146,7 +146,7 @@
           </ul>
         </div>
 
-        <div class="footer-items">
+        <div class="footer-items" style="visibility: hidden;">
           <h2>Our Portfolio</h2>
           <div class="footer-border"></div>
           <ul>
@@ -163,7 +163,7 @@
             <li>
               <i class="fa fa-map-marker" aria-hidden="true"></i>
            
-                Jamshedpur,West Bengal, India
+                Jamshedpur,Jharkhand, India
  
             </li>
             <li>
@@ -176,16 +176,16 @@
             </li>
           </ul>
 
-          <div class="footer-icons">
+          <!--div class="footer-icons">
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-linkedin"></i></a>
             <a href="#"><i class="fa fa-github"></i></a>
-          </div>
+          </div-->
         </div>
       </div>
       <div class="footer-bottom">
-        Copyright &copy; Computer & Codes 2020. All Rights Reserved
+        Copyright &copy; Safedocs Technology. All Rights Reserved
       </div>
     </div>
 
