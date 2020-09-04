@@ -37,12 +37,11 @@
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="contactUs.css">
   </head>
   <body>
     <!-- HomePage -->
-    <?php
-    error_reporting(0);
-    ?>
+
     <!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-lg fixed-top py-3">
@@ -240,7 +239,7 @@
           </div>
         </div>
       </div> -->
-    </section>
+    <!-- </section> -->
     <!-- /Services section -->
     <!-- What WE Do Section -->
 
@@ -320,107 +319,73 @@
         </section>
       </div>
     </div>
+ 
 
     <!-- End What We Do End -->
 
     <!-- Contact Us -->
 
     <section id="contact">
-      <div class="contact-section">
-        <div class="content">
-          <h2>Contact Us</h2>
+        <!--socail----------->
+        <div class="social">
+        <!--icons--------->
+        <a href="#"><i class="fa fa-facebook-f"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-map"></i></a>
+            
         </div>
+        <!--contact-box------------->
+        <div class="contact-box">
+        <!--heading---------->
+        <div class="c-heading">
+        <h1>Get In Touch</h1>
+        <p>Call Or Email Us Regarding Question Or Issues</p>
+        </div>
+        <!--inputs------------------>
+        <div class="c-inputs">
+        <form method="POST">
+        <input type="text" name="name" placeholder="Full Name" require/>	
+        <input type="number" name="phno"  placeholder="Your Phone Number" require/>
+        <input type="email" name="email"  placeholder="Example@gmail.com" require/>
+        <textarea name="NewMessage" placeholder="Write Message" require></textarea>
+        <hr>
+        <!--sumbit-btn----------->
+        <input type="hidden" name="form_submitted" value="1">
+        <!-- <button class="contactus-btn" type="submit" name="btn" value="submit">SEND<button> -->
+          <a href="" class="contactus-btn " style="padding: 10px; text-transform: uppercase; text-align: center; text-decoration: none;" name="btn" type="submit">Submit</a>
 
-        <div class="contact-container">
-          <div class="contact-Info" data-aos="fade-left">
-            <div class="contact-box">
-              <div class="contact-icon">
-                <i class="fa fa-map"></i>
-              </div>
-              <div class="contact-text">
-                <h3>Address</h3>
-                <p>
-                  Sonari, Jamshedpur, East Singhbhum, Jharkhand. Pin: 831011
-                </p>
-              </div>
-            </div>
-
-            <div class="contact-box">
-              <div class="contact-icon">
-                <i class="fa fa-phone"></i>
-              </div>
-              <div class="contact-text">
-                <h3>Phone</h3>
-
-                <p>
-                  <a href="tel:+918210431630"><p>+918210431630</p></a>
-                </p>
-              </div>
-            </div>
-
-            <div class="contact-box">
-              <div class="contact-icon">
-                <div class="fa fa-envelope-o"></div>
-              </div>
-              <div class="contact-text">
-                <h3>Email</h3>
-                <p><a href="mailto:safedocstechnology@gmail.com">safedocstechnology@gmail.com</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="contact-form" data-aos="fade-right">
-            <form action="" method="POST">
-              <h2>Send Message</h2>
-
-              <div class="inputBox">
-                <input type="text" name="name" required="required" placeholder="Full Name"/>
-                <!--span>Full Name</span-->
-              </div>
-
-              <div class="inputBox">
-                <input type="text" name="email" required="required" placeholder="xyz@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" />
-                <!--span>Email</span-->
-              </div>
-
-              <div class="inputBox">
-                <textarea
-                  name="message"
-                  id=""
-                  cols="30"
-                  required="required"
-                  placeholder="Type Your Message"
-                  rows="10"
-                ></textarea>
-
-                <!--span>Type Your Message</span-->
-              </div>
-
-              <div class="inputBox">
-                <input type="hidden" name="form_submitted" value="1">
-                <input type="submit" name="btn" value="submit" class="my-btn" />
-                
-              </div>
-              <?php
+        <?php
                 if(isset($_POST["form_submitted"]) and isset($_POST['btn'])){
+                    ?>
+            <script>alert('done')</script>
+                    <?php
+                    
                   $email= $_POST["email"];
-                  $message= $_POST["message"];
+                  $phno= $_POST["phno"];
+                  $NewMessage= $_POST["NewMessage"];
                   $name=$_POST["name"];
+                  $phno=$_POST["phno"];
                   
-                ?>
+        ?>
+        </form>
 
-            </form>
-<?php
+        <?php
 
             if(isset($_POST['btn'])){
                         if(!empty($_POST['email'])){
                             $email=$_POST['email'];
                         }
-                        if(!empty($_POST['message'])){
-                            $message=$_POST['message'];
+                        if(!empty($_POST['NewMessage'])){
+                            $message=$_POST['NewMessage'];
                         }
                         if(!empty($_POST['name'])){
                             $name=$_POST['name'];
                         }
+                        if(!empty($_POST['phno'])){
+                          $phno=$_POST['phno'];
+                      }
         
                     }
                     if(empty($name)){
@@ -429,17 +394,22 @@
                     if(empty($email)){
                         $email=0;
                     }
-                    if(empty($message)){
-                        $message=0;
+                    if(empty($NewMessage)){
+                        $NewMessage=0;
                     }
+                    if(empty($phno)){
+                      $phno=0;
+                  }
                     
                     
                     $to="damitlucky998@gmail.com";
-                    $subject="Contact Us Section Query";
+                    $subject="Asking for Quotation";
                     
-                    $message1="Mail from:".$email."\n From ".$name ." \n Message ".$message;                    
+                    $message="Mail from:".$email."\n From ".$name ." \n Message ".$message." \n phno ".$phno;    
                     
-                    if(mail($to,$subject,$message1)){
+                    mail($to,$subject,$message);
+                    
+                    if(mail($to,$subject,$message)){
                         ?>
             <script>console.log('done')</script>
                     <?php
@@ -452,11 +422,14 @@
                     }
                         ?>
 
-
-          </div>
         </div>
-      </div>
-    </section>
+            
+        </div>
+        <!--map------------------->
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29420.23517512984!2d86.15842145945349!3d22.819895343571236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e4796c593009%3A0x8da2ec239d0d18bb!2sSonari%2C%20Jamshedpur%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1599197216695!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        </section>
 
     <!-- Contact us end -->
 
@@ -507,7 +480,7 @@
             </li>
           </ul>
 
-          <div class="footer-icons" style="visibility: hidden;">
+          <div class="footer-icons">
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-linkedin"></i></a>
@@ -516,7 +489,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        Copyright &copy; Safedocs Technology. All Rights Reserved
+        Copyright &copy; Computer & Codes 2020. All Rights Reserved
       </div>
     </div>
 
