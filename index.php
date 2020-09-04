@@ -40,11 +40,13 @@
   </head>
   <body>
     <!-- HomePage -->
-
+    <?php
+    error_reporting(0);
+    ?>
     <!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-lg fixed-top py-3">
-      <a href="./index3.html" class="navbar-brand">SAFEDOCS TECHNOLOGY</a>
+      <a href="./index.php" class="navbar-brand">SAFEDOCS TECHNOLOGY</a>
       <button
         class="navbar-toggler custom-toggler"
         type="button"
@@ -56,7 +58,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active">
-            <a href="#" class="nav-link">Home</a>
+            <a href="./index.php" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="#what-we-do" class="nav-link">About</a>
@@ -69,17 +71,17 @@
             <a href="#contact" class="nav-link">Contact </a>
           </li>
           <li class="nav-item">
-            <a href="./for-recruiters.html" class="nav-link">HR</a>
+            <a href="./for-recruiters.php" class="nav-link">HR</a>
           </li>
           <li class="nav-item">
-            <a href="./shop.html" class="nav-link">Products</a>
+            <a href="./shop.php" class="nav-link">Products</a>
           </li>
         </ul>
 
-        <ul class="navbar-nav mx-auto">
+        <!--ul class="navbar-nav mx-auto">
           <form
             class="form-inline d-none d-sm-block"
-            action="FullPost.php?id=<?php $searchQueryParameter ?>"
+            action="FullPost.php?id=<?/*php $searchQueryParameter */?>"
           >
             <div class="form-group">
               <input
@@ -91,7 +93,7 @@
               <button class="btn" name="searchBtn" type="submit">Search</button>
             </div>
           </form>
-        </ul>
+        </ul-->
       </div>
     </nav>
 
@@ -371,13 +373,13 @@
               <h2>Send Message</h2>
 
               <div class="inputBox">
-                <input type="text" name="name" required="required" />
-                <span>Full Name</span>
+                <input type="text" name="name" required="required" placeholder="Full Name"/>
+                <!--span>Full Name</span-->
               </div>
 
               <div class="inputBox">
-                <input type="text" name="email" required="required" />
-                <span>Email</span>
+                <input type="text" name="email" required="required" placeholder="xyz@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" />
+                <!--span>Email</span-->
               </div>
 
               <div class="inputBox">
@@ -386,10 +388,11 @@
                   id=""
                   cols="30"
                   required="required"
+                  placeholder="Type Your Message"
                   rows="10"
                 ></textarea>
 
-                <span>Type Your Message</span>
+                <!--span>Type Your Message</span-->
               </div>
 
               <div class="inputBox">
@@ -511,7 +514,7 @@
             </li>
           </ul>
 
-          <div class="footer-icons">
+          <div class="footer-icons" style="visibility: hidden;">
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-linkedin"></i></a>
@@ -520,7 +523,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        Copyright &copy; Computer & Codes 2020. All Rights Reserved
+        Copyright &copy; Safedocs Technology. All Rights Reserved
       </div>
     </div>
 
