@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,10 +20,13 @@
     
 </head>
 <body>
+    <?php
+    error_reporting(0);
+    ?>
   <!-- NAVBAR -->
 
   <nav class="navbar navbar-expand-lg fixed-top py-3">
-    <a href="./index.html" class="navbar-brand">SAFEDOCS TECHNOLOGY</a>
+    <a href="./index.php" class="navbar-brand">SAFEDOCS TECHNOLOGY</a>
     <button
       class="navbar-toggler custom-toggler"
       type="button"
@@ -34,11 +38,11 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
-          <a href="./index.html" class="nav-link">Home</a>
+          <a href="./index.php" class="nav-link">Home</a>
         </li>
  
         <li class="nav-item">
-          <a href="./shop.html" class="nav-link">Products</a>
+          <a href="./shop.php" class="nav-link">Products</a>
         </li>
 
         <li class="nav-item">
@@ -46,14 +50,14 @@
         </li>
       </ul>
 
-      <ul class="navbar-nav mx-auto">
-        <form class="form-inline d-none d-sm-block" action="FullPost.php?id=<?php $searchQueryParameter ?>">
+      <!--ul class="navbar-nav mx-auto">
+        <form class="form-inline d-none d-sm-block" action="FullPost.php?id=<?/*php $searchQueryParameter */?>">
           <div class="form-group">
             <input class="form-control mr-2" name="search" type="text" placeholder="Search Here.." />
             <button class="btn" name="searchBtn" type="submit">Search</button>
           </div>
         </form>
-      </ul>
+      </ul-->
     </div>
   </nav>
   <br>
@@ -72,11 +76,11 @@
                       <div class="col-md-4 product-grid" > 
                         <div class="image">
                             <a href="">
-                                <img src="./img/12.jpg" alt="" class="w-100">
+                                <img src="./img/12.jpg" alt="here" class="w-100"><!--12-->
                                 
-                                <div class="overlay">
+                                <!--div class="overlay">
                                     <div class="detail"><span class="">VIEW DETAILS</span></div>
-                                </div>
+                                </div-->
                             </a>
                         </div>
                         
@@ -84,18 +88,18 @@
                           <h5 class="text-center">₹ 165.00</h5>
                           <h6 class="text-center">FRP Industrial Helmet <br>IS:2925</h6>
                           <p class="text-center">Mail us or call us to get the best & satisfactory quotation for required quantities</p>
-                                  
+                          
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
-                        <div class="form-group">
+                        <!--div class="form-group"-->
                           <div class="form-check">
                             <input type="checkbox" class="form-check-input" name="object1">
                             <label class="form-check-label" for="exampleCheck1">Select Item</label>
                           </div>
-                        </div>
-                        <div class="form-group">
+                        <!--/div-->
+                        <!--div class="form-group"-->
                           <input class="form-control" id="exampleInputEmail1" aria-describedby="totalAmount" type="number" name="quantity1" placeholder="quantity" min="0" max="10">
-                          <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
-                        </div>
+                          <!-- small id="totalAmount" class="form-text text-muted">Enter The Amount.</small -->
+                        <!--/div-->
 
                         </div>
 
@@ -103,11 +107,11 @@
                         <div class="col-md-4 product-grid" > 
                           <div class="image">
                               <a href="">
-                                  <img src="./img/13.jpg" alt="" class="w-100">
+                                  <img src="./img/13.jpg" alt="here" class="w-100">
                                   
-                                  <div class="overlay">
+                                  <!--div class="overlay">
                                       <div class="detail"><span class="">VIEW DETAILS</span></div>
-                                  </div>
+                                  </div-->
                               </a>
                           </div>
                           
@@ -118,28 +122,28 @@
                             <p class="text-center">We have shoes ranging from Acme to regular usable ones and the prices vary a much with manufacturer's quality. Kindly mail us or call us to get the best & satisfactory quotation for required quantities.</p>
                                     
                           <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
-                          <div class="form-group">
+                          <!--div class="form-group"-->
                             <div class="form-check">
                               <input type="checkbox" class="form-check-input" name="object2">
                               <label class="form-check-label" for="exampleCheck1">Select Item</label>
                             </div>
-                          </div>
-                          <div class="form-group">
+                          <!--/div-->
+                          <!--div class="form-group"-->
                             <input class="form-control" id="exampleInputEmail1" aria-describedby="totalAmount" type="number" name="quantity2" placeholder="quantity" min="0" max="10">
-                            <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
+                            <!--small id="totalAmount" class="form-text text-muted">Enter The Amount.</small-->
                           </div>
   
-                          </div>
+                         
                         
 
                         <div class="col-md-4 product-grid" > 
                         <div class="image">
                             <a href="">
-                                <img src="./img/9.jpg" alt="" class="w-100">
+                                <img src="./img/9.jpg" alt="here" class="w-100">
                                 
-                                <div class="overlay">
+                                <!--div class="overlay">
                                     <div class="detail"><span class="">VIEW DETAILS</span></div>
-                                </div>
+                                </div-->
                             </a>
                         </div>
                         
@@ -149,28 +153,28 @@
                           <h6 class="text-center">Cotton high visibility traffic vest<br>EN-471</h6>
                           <p class="text-center">We have fluorescent jackets ranging from Udyogi & other certified Manufacturers thus the prices differs. Kindly mail us or call us to get the best & satisfactory quotation for required quantities.</p>       
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
-                        <div class="form-group">
+                        <!--div class="form-group"-->
                           <div class="form-check">
                             <input type="checkbox" class="form-check-input" name="object3">
                             <label class="form-check-label" for="exampleCheck1">Select Item</label>
                           </div>
-                        </div>
-                        <div class="form-group">
+                        <!--/div-->
+                        <!--div class="form-group"-->
                           <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity3" placeholder="quantity" min="0" max="10">
-                          <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
+                          <!--small id="totalAmount" class="form-text text-muted">Enter The Amount.</small-->
                         </div>
 
-                        </div>
+                        
 
 
                         <div class="col-md-4 product-grid" > 
                         <div class="image">
                             <a href="">
-                                <img src="./img/14.jpg" alt="" class="w-100">
+                                <img src="./img/14.jpg" alt="here" class="w-100"><!--14-->
                                 
-                                <div class="overlay">
+                                <!--div class="overlay">
                                     <div class="detail"><span class="">VIEW DETAILS</span></div>
-                                </div>
+                                </div-->
                             </a>
                         </div>
                         
@@ -185,13 +189,14 @@
                             <input type="checkbox" class="form-check-input" name="object4">
                             <label class="form-check-label" for="exampleCheck1">Select Item</label>
                           </div>
-                        </div>
-                        <div class="form-group">
+                        <!--/div-->
+                        <!--div class="form-group"-->
                           <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity4" placeholder="quantity" min="0" max="10">
-                          <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
+                          <!--small id="totalAmount" class="form-text text-muted">Enter The Amount.</small-->
+                        </div>
                         </div>
 
-                        </div>
+                        
 
 
 
@@ -199,11 +204,11 @@
                         <div class="col-md-4 product-grid" > 
                         <div class="image">
                             <a href="">
-                                <img src="./img/11.jpg" alt="" class="w-100">
+                                <img src="./img/11.jpg" alt="here" class="w-100"><!--11-->
                                 
-                                <div class="overlay">
+                                <!--div class="overlay">
                                     <div class="detail"><span class="">VIEW DETAILS</span></div>
-                                </div>
+                                </div-->
                             </a>
                         </div>
                         
@@ -213,29 +218,30 @@
                           <p class="text-center">We have safety glasses manufactured by certified agencies like 3M & others and the prices varies with UV protection, covering & thickness of material. Kindly mail us or call us to get the best & satisfactory quotation for required quantities.</p>
                                   
                         <!--a href="" type="submit" class="btn cartBtn" id="addToCart" >ADD TO CART</a-->
-                        <div class="form-group">
-                          <div class="form-check">
+                        <div class="form-group" >
+                          <div class="form-check" >
                             <input type="checkbox" class="form-check-input" name="object5">
-                            <label class="form-check-label" for="exampleCheck1">Select This If You Want To add it into your Wishlish</label>
+                            <label class="form-check-label" for="exampleCheck1">Select Item</label>
                           </div>
-                        </div>
-                        <div class="form-group">
+                        <!--/div-->
+                        <!--div class="form-group"-->
                           <input class="form-control"  aria-describedby="totalAmount" type="number" name="quantity5" placeholder="quantity" min="0" max="10">
-                          <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
+                          <!--small id="totalAmount" class="form-text text-muted">Enter The Amount.</small-->
+                        </div>
                         </div>
 
-                        </div>
+                        
 
 
 
                         <div class="col-md-4 product-grid" > 
                         <div class="image">
                             <a href="">
-                                <img src="./img/10.jpg" alt="" class="w-100">
+                                <img src="./img/10.jpg" alt="here" class="w-100">
                                 
-                                <div class="overlay">
+                                <!--div class="overlay">
                                     <div class="detail"><span class="">VIEW DETAILS</span></div>
-                                </div>
+                                </div-->
                             </a>
                         </div>
                         
@@ -250,11 +256,14 @@
                             <input type="checkbox" class="form-check-input" name="object6">
                             <label class="form-check-label" for="exampleCheck1">Select Item</label>
                           </div>
-                        </div>
-                        <div class="form-group">
+                        <!--/div-->
+                        <!--div class="form-group"-->
                           <input class="form-control" aria-describedby="totalAmount" type="number" name="quantity6" placeholder="Quantity" min="0" max="10">
-                          <small id="totalAmount" class="form-text text-muted">Enter The Amount.</small>
+                          <!--small id="totalAmount" class="form-text text-muted">Enter The Amount.</small-->
                         </div>
+                        </div>
+                        
+                        
 
 
 
@@ -273,17 +282,17 @@
 
               <label for="inputEmail">Email</label>
 
-              <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+              <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="xyz@gmail.com" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
             </div>
 
             <div class="form-group">
-              <label for="inputName">Number</label>
-              <input type="number" class="form-control" id="inputName" name="phn" required="true" pattern=".{10, }" placeholder="Your Number">
+              <label for="phn">Mobile Number</label>
+              <input type="text" class="form-control"  name="phn" required="true" pattern="[7-9]{1}[0-9]{9}" placeholder="7*******10">
             </div>
 
             <div class="form-group">
                 <label for="inputName">Name</label>
-                <input type="text" name="inputName" required="true" class="form-control" id="inputName" placeholder="Your Name">
+                <input type="text" name="inputName" required="true" class="form-control" id="inputName" placeholder="Full Name">
             </div>
 
             <div class="form-group">
@@ -364,23 +373,27 @@ if(isset($_POST["btn"]) and isset($_POST["form_submitted"])){
                     $subject="Asking for Quotation";
                     
                     $message="Mail from:".$email."\n"."Name:".$name."\n"."Phn number=".$phn."\n"."Object1 quantity=".$object1."\n"."Object2 quantity=".$object2."\n"."Object3 quantity=".$object3."\n"."Object4 quantity=".$object4."\n  Object5 quantity=".$object5."\n"."  Object6 quantity=".$object6."\n Message :".$text;
+                    //echo $message;
                     if(mail($to,$subject,$message)){
+                        
                         ?>
-            <script>console.log("successful");</script>
+            <script>alert("successful");</script>
                     <?php
                       
                     } else{
+                        
                         ?>
-            <script>console.log("unsuccessful");</script>
+            <script>alert("unsuccessful");</script>
                         <?php  
-                            }
+                        
+                        }
                     }
                     
                         ?>        
                       
             </div>
 
-        <a href="#" class="viewCart"><i class="fa fa-cart-plus"></i></a>
+        <a href="#" class="gotoTop"><i class="fa fa-arrow-up"></i></a>
     </section>
 
     
@@ -389,7 +402,7 @@ if(isset($_POST["btn"]) and isset($_POST["form_submitted"])){
 
     <div class="footer">
       <div class="inner-footer">
-        <div class="footer-items">
+          <div class="footer-items" style="visibility: hidden;">
           <h2>Our Works</h2>
           <div class="footer-border"></div>
           <ul>
@@ -400,7 +413,7 @@ if(isset($_POST["btn"]) and isset($_POST["form_submitted"])){
           </ul>
         </div>
 
-        <div class="footer-items">
+          <div class="footer-items" style="visibility: hidden;">
           <h2>Our Portfolio</h2>
           <div class="footer-border"></div>
           <ul>
@@ -417,7 +430,7 @@ if(isset($_POST["btn"]) and isset($_POST["form_submitted"])){
             <li>
               <i class="fa fa-map-marker" aria-hidden="true"></i>
            
-                Jamshedpur,West Bengal, India
+                Jamshedpur,Jharkhand, India
  
             </li>
             <li>
@@ -439,7 +452,7 @@ if(isset($_POST["btn"]) and isset($_POST["form_submitted"])){
         </div>
       </div>
       <div class="footer-bottom">
-        Copyright &copy; Computer & Codes 2020. All Rights Reserved
+        Copyright &copy; Safedocs Technology . All Rights Reserved
       </div>
     </div>
 
